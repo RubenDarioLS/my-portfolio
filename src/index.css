@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  --primary: #00abf0;
+  --secondary: #081b29;
+  --bgColor: #0c293d;
+  --textColor: white;
+}
+
+html {
+  background: var(--bgColor);
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}

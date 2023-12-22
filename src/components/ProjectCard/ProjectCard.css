@@ -1,0 +1,26 @@
+.projectButton {
+    background-color: var(--primary);
+    border-radius: 20px;
+    padding: 10px 40px;
+    transform: scale(.9);
+    transition: .5s;
+}
+
+.buttonText {
+    color: var(--textColor);
+}
+
+
+
+
+/* min-width 1024px */
+@media (min-width: 1024px) {
+
+    .projectButton:hover {
+
+        transform: scale(1);
+        transition: .5s;
+        box-shadow: var(--primary) 0px 0px 12px;
+
+    }
+}
