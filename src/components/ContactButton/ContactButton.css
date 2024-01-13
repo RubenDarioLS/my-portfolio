@@ -1,0 +1,43 @@
+.contactButton {
+
+    margin: 15px auto;
+    color: white;
+    border: 2px white solid;
+    border-radius: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  25px;
+
+
+
+}
+
+@media (min-width: 1024px) {
+
+
+    .contactButton {
+
+        margin: 15px auto;
+        color: white;
+        border: 2px white solid;
+        border-radius: 100%;
+        width: 53px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+
+
+        transition: width .7s, border-radius .7s, border .7s, color .7s, transform .7s ease-in-out;
+    }
+
+    .contactButton:hover {
+        color: var(--primary);
+        border: 2px var(--primary) solid;
+        width: 100%;
+        border-radius: 10px;
+
+    }
+}

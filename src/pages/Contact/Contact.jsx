@@ -1,10 +1,16 @@
-import ContactForm from "../../components/ContactForm/ContactForm";
+import ContactButtonContainer from "../../components/ContactButtonContainer/ContactButtonContainer";
+
+
 
 const Contact = () => {
     return (
-        <div id="contact" className="h-full flex flex-col items-center">
+        <div id="contact" className="h-max flex flex-col items-center">
             <h2 className="text-primary text-5xl mb-8 mt-14">Contact</h2>
-            <ContactForm />
+            <ContactButtonContainer />
+
+            <footer className="text-white flex justify-center items-center w-full text-center py-4 bg-secondary" >
+                <p className="w-56 lg:w-full">© 2024 Rubén Programando. Todos los derechos reservados.</p>
+            </footer>
         </div>
     )
 }

@@ -2,12 +2,15 @@ import { motion } from 'framer-motion'
 
 const CreateMyWebButton = () => {
 
+    const whatsappNumber = import.meta.env.WHATSAPP_NUMBER;
+
+
     return (
 
 
-        <a className=' w-full flex ' href={`https://api.whatsapp.com/send?phone=${import.meta.env.VITE_SOME_KEY}`} rel="noopener noreferrer" target="_blank" text="I want that you create a website!
+        <a className=' w-full flex lg:w-max' href={`https://api.whatsapp.com/send?phone=${whatsappNumber}`} rel="noopener noreferrer" target="_blank" text="I want that you create a website!
         Quiero que me crees una pagina web!">
-            <motion.div className=' text-white font-bold mx-auto border rounded-full mx-auto py-2 px-6 '
+            <motion.div className=' text-white font-bold mx-auto border rounded-full py-2 px-3 lg:mx-0 lg:text-sm lg:ml-1'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
@@ -17,7 +20,7 @@ const CreateMyWebButton = () => {
                     transition: { duration: .5 }
                 }}
             >
-                <button>Create My Website</button>
+                <button>Create my website</button>
             </motion.div >
         </a >
 

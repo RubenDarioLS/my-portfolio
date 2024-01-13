@@ -3,23 +3,23 @@ import { Typewriter } from 'react-simple-typewriter'
 
 import { motion } from 'framer-motion'
 
-const titleNames = ['Web Developer', 'Front-end Developer', 'Portfolio Developer', 'Freelancer']
+const titleNames = ['Front-end Developer', 'Web Developer', 'Portfolio Developer', 'Freelancer']
 
 const HomeTitle = () => {
     return (
-        <div className=' flex flex-col  text-5xl z-0 mb-5 h-56' >
+        <div className=' flex flex-col  text-5xl z-0' >
             <motion.h2
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 2 }} className='text-white w-max mx-auto'>I´m{' '}</motion.h2>
+                transition={{ duration: 2 }} className=' text-white w-max mx-auto lg:mx-0 lg:w-full'>I´m Rubén</motion.h2>
 
             <motion.h1
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 2 }}
-                className='text-primary text-center max-w-sm mx-auto my-4 leading-snug'><Typewriter
+                className=' text-4xl text-primary text-center max-w-sm mx-auto my-4 leading-snug lg:text-start lg:mx-0 lg:w-96'><Typewriter
                     words={titleNames}
                     loop={0}
                     cursor

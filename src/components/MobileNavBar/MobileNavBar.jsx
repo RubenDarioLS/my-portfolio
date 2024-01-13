@@ -34,7 +34,7 @@ const MobileNavBar = () => {
 
     return (
         <>
-            <div className="fixed w-full z-10 bg-bgColor">
+            <div className="fixed w-full z-10 bg-bgColor lg:hidden">
 
                 <div className="flex flex-row justify-between items-center mt-3">
 

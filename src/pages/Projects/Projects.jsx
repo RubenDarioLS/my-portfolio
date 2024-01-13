@@ -7,7 +7,7 @@ const Projects = () => {
         <div id="projects" className="h-max  flex flex-col items-center mb-10">
             <h2 className="text-primary text-5xl mb-8 mt-14">My Projects</h2>
 
-            {projects.map((project) => (<ProjectCard key={project.name} name={project.name} img={project.img} tecnologies={project.tecnologies} link={project.link} />))}
+            {projects.map((project) => (<ProjectCard key={project.name} name={project.name} img={project.img} technologies={project.technologies} link={project.link} />))}
         </div>
     )
 }
