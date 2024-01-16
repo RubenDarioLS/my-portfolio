@@ -2,10 +2,10 @@ import AnimatedButton from "../../components/AnimatedButton/AnimatedButton"
 import AboutGallery from "../../components/AboutGallery/AboutGallery";
 const About = () => {
     return (
-        <div id="about" className="h-full flex flex-col  items-center justify-center bg-sky-900 lg:justify-start">
+        <div id="about" className="h-max flex flex-col  items-center justify-center bg-sky-900 lg:justify-start">
             <h2 className="text-5xl text-primary  bg-transparent lg:mt-20 ">About</h2>
 
-            <div className="lg:flex lg:w-full lg:mt-24 lg:h-max  lg:max-w-5xl lg:justify-around  lg:items-start">
+            <div className="lg:flex lg:w-full lg:mt-24 lg:h-max  lg:max-w-5xl lg:justify-around  lg:items-start  mb-48">
 
                 <div className="flex flex-col items-center text-center lg:items-start h-max" >
 
