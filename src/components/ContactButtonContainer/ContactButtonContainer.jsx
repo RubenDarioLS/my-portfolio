@@ -8,9 +8,9 @@ import { FaLinkedin } from "react-icons/fa";
 
 const ContactButtonContainer = () => {
 
-    const linkedinLink = import.meta.env.LINKEDIN_URL;
-    const whatsAppNumber = import.meta.env.WHATSAPP_NUMBER;
-    const githubLink = import.meta.env.GITHUB_URL;
+    const linkedinLink = import.meta.env.ENV_LINKEDIN_URL;
+    const whatsAppNumber = import.meta.env.ENV_WHATSAPP_NUMBER;
+    const githubLink = import.meta.env.ENV_GITHUB_URL;
 
 
     return (

@@ -4,7 +4,7 @@ const HomeLogoImg = () => {
     return (
 
         <div className='homeImgContainer hidden lg:flex'>
-            <img src={logoImg} alt="logo image" className="border-primary  hidden lg:flex homeLogo" />
+            <img src={logoImg} alt="logo image" className="border-primary rounded-full hidden lg:flex homeLogo" />
         </div>
 
     )

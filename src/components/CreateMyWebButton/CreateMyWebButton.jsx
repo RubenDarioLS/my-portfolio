@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const CreateMyWebButton = () => {
 
-    const whatsappNumber = import.meta.env.WHATSAPP_NUMBER;
+    const whatsappNumber = import.meta.env.ENV_WHATSAPP_NUMBER;
 
 
     return (
