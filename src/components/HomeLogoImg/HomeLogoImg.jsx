@@ -3,8 +3,8 @@ import logoImg from '../../../public/logo.png'
 const HomeLogoImg = () => {
     return (
 
-        <div className='homeImgContainer'>
-            <img src={logoImg} alt="logo image" className="h-72 rounded-full border-primary  hidden lg:flex homeLogo" />
+        <div className='homeImgContainer hidden lg:flex'>
+            <img src={logoImg} alt="logo image" className="border-primary  hidden lg:flex homeLogo" />
         </div>
 
     )

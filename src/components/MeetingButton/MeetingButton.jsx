@@ -1,9 +1,6 @@
 import { motion } from 'framer-motion'
 import './MeetingButton.css'
 
-
-
-
 const MeetingButton = () => {
     return (
         <motion.div className='meetingButtonContainer'

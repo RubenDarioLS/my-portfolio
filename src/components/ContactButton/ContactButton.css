@@ -23,14 +23,14 @@
         color: white;
         border: 2px white solid;
         border-radius: 100%;
-        width: 53px;
+        width: 58px;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 15px;
 
 
-        transition: width .7s, border-radius .7s, border .7s, color .7s, transform .7s ease-in-out;
+        transition: width .5s, border-radius .5s, border .5s, color .5s, transform .5s ease-in-out;
     }
 
     .contactButton:hover {

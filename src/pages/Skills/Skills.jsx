@@ -1,5 +1,3 @@
-
-
 import SkillItem from "../../components/SkillItem/SkillItem";
 import { IoLogoHtml5 } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa";
@@ -30,12 +28,12 @@ const Skills = () => {
 
     return (
         <div id="skills" className="h-max py-20 flex flex-col items-center text-center bg-sky-900 pt-6">
-
             <h2 className="text-primary text-5xl mb-8 mt-12">Skills</h2>
-            <div>
-                {skills.map((skill, index) => (<SkillItem key={skill.name} skill={skill.name} icon={skill.icon} delay={index} />))
 
-                }
+            <div>
+
+
+                {skills.map((skill, index) => (<SkillItem key={skill.name} skill={skill.name} icon={skill.icon} delay={index} />))}
 
             </div>
         </div>

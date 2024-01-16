@@ -35,7 +35,7 @@ const NavBar = () => {
                         transition={{ duration: 0.5 }}
                         className="h-10 rounded-full ml-7 border-2 border-primary flex" />
 
-                    <ul className="text-center flex h-full bg-bgColor mr-20 ">
+                    <ul className="text-center flex h-full bg-bgColor mr-16 ">
 
                         {navButtons.map((button) =>
                             <motion.div key={button.id}
