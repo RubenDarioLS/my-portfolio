@@ -17,7 +17,7 @@ const AboutGallery = () => {
     }, []);
     return (
         <motion.div
-            className='w-72 h-72 bg-primary rounded-lg justify-center items-center text-2xl font-bold text-white hidden lg:flex'
+            className='w-64  h-64  bg-primary rounded-lg justify-center items-center text-2xl font-bold text-white hidden lg:flex'
 
 
             animate={{

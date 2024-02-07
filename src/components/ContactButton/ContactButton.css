@@ -23,11 +23,11 @@
         color: white;
         border: 2px white solid;
         border-radius: 100%;
-        width: 58px;
+        width: 68px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 15px;
+        padding: 19px;
 
 
         transition: width .5s, border-radius .5s, border .5s, color .5s, transform .5s ease-in-out;

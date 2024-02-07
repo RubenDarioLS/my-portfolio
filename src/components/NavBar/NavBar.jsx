@@ -24,16 +24,16 @@ const NavBar = () => {
 
     return (
         <>
-            <div className=" hidden lg:flex lg:fixed lg:w-full lg:z-10 lg:bg-bgColor">
+            <header className=" hidden lg:flex lg:fixed lg:w-full lg:z-10 lg:bg-bgColor">
 
-                <div className="flex flex-row justify-between items-center w-full">
+                <nav className="flex flex-row justify-between items-center w-full">
 
                     <motion.img src={logoImg} alt="logo img"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.5 }}
-                        className="h-10 rounded-full ml-7 border-2 border-primary flex" />
+                        className="h-10 rounded-lg ml-7 border-2 border-primary flex" />
 
                     <ul className="text-center flex h-full bg-bgColor mr-16 ">
 
@@ -48,9 +48,9 @@ const NavBar = () => {
                         )}
 
                     </ul>
-                </div>
+                </nav>
 
-            </div>
+            </header>
 
         </>
     )

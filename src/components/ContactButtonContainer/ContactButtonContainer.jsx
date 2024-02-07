@@ -14,7 +14,7 @@ const ContactButtonContainer = () => {
 
 
     return (
-        <div className='flex flex-col justify-center items-center my-3 h-full lg:flex-row lg:w-3/6 lg:justify-between lg:mb-32 lg:mt-14'>
+        <div className='flex flex-col justify-center items-center my-3 h-full lg:flex-row lg:w-176 lg:justify-between lg:mb-32 lg:mt-14'>
 
             <div className='lg:w-3/6 lg:justify-between lg:items-between lg:flex lg:flex-col'>
 

@@ -10,17 +10,17 @@ const ProjectCard = ({ name, img, technologies, link }) => {
 
     return (
         <>
-            <article className='h-96 flex flex-col justify-center items-center m-5 bg-secondary w-80 p-16 rounded-xl relative '>
+            <article className='h-112 flex flex-col justify-center items-center m-5 bg-secondary w-96 p-16 rounded-xl relative '>
                 <img className="h-16 w-max rounded mx-10 " src={img} alt={`${name} logo`} />
 
                 <div className="flex flex-col items-center my-8 ">
-                    <h3 className="text-white text-3xl mb-6" >{name}</h3>
-                    <p className="text-white text-center w-72">
+                    <h3 className="text-white text-4xl mb-6" >{name}</h3>
+                    <p className="text-white text-center text-xl w-72">
                         Implemented technologies: </p>
                     <div className='flex justify-between mt-3'>
 
                         {technologies.map((tec, index) => (
-                            <div key={index} className='text-2xl text-primary px-1'>
+                            <div key={index} className='text-3xl text-primary px-1'>
                                 {tec === "html" && <FaHtml5 />}
                                 {tec === "css" && <FaCss3Alt />}
                                 {tec === "javascript" && <SiJavascript />}

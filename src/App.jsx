@@ -7,12 +7,14 @@ import About from './pages/About/About'
 import Projects from './pages/Projects/Projects'
 import Skills from './pages/Skills/Skills'
 import Contact from './pages/Contact/Contact'
+import Footer from './pages/Footer/Footer'
 
 
 function App() {
 
   return (
     <div className='h-full absolute w-full'>
+
       <NavBar />
       <MobileNavBar />
       <Home />
@@ -20,6 +22,7 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
+      <Footer />
     </div>
   )
 }

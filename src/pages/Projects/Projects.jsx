@@ -1,16 +1,16 @@
+import './Projects.css'
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import projects from "../../components/ProjectCard/projects";
-/* Use context aca */
 const Projects = () => {
 
     return (
-        <div id="projects" className="h-max  flex flex-col items-center mb-10">
-            <h2 className="text-primary text-5xl mb-8 mt-14">My Projects</h2>
-            <div className="  flex flex-col lg:flex-row items-center mb-16 mt-5 ">
+        <section id="projects" className="h-max  flex flex-col items-center mb-20">
+            <h2 className="text-primary text-6xl mb-8 mt-24">My Projects</h2>
+            <div className="projectsContainers">
 
                 {projects.map((project) => (<ProjectCard key={project.name} name={project.name} img={project.img} technologies={project.technologies} link={project.link} />))}
             </div>
-        </div>
+        </section>
     )
 }
 

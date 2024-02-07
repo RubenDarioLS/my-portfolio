@@ -27,8 +27,8 @@ const Skills = () => {
 
 
     return (
-        <div id="skills" className="h-max py-20 flex flex-col items-center text-center bg-sky-900 pt-6">
-            <h2 className="text-primary text-5xl mb-8 mt-12">Skills</h2>
+        <section id="skills" className="h-max py-20 flex flex-col items-center text-center bg-sky-900 pt-6">
+            <h2 className="text-primary text-6xl mb-8 mt-12">Skills</h2>
 
             <div>
 
@@ -36,7 +36,7 @@ const Skills = () => {
                 {skills.map((skill, index) => (<SkillItem key={skill.name} skill={skill.name} icon={skill.icon} delay={index} />))}
 
             </div>
-        </div>
+        </section>
     )
 }
 

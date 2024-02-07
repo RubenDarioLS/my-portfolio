@@ -34,11 +34,11 @@ const MobileNavBar = () => {
 
     return (
         <>
-            <div className="fixed w-full z-10 bg-bgColor lg:hidden">
+            <header className="fixed w-full z-10 bg-bgColor lg:hidden">
 
-                <div className="flex flex-row justify-between items-center mt-3">
+                <nav className="flex flex-row justify-between items-center mt-3">
 
-                    <img src={logoImg} alt="logo img" className="h-8 rounded-full ml-4 border-2 border-primary flex" />
+                    <img src={logoImg} alt="logo img" className="h-8 ml-4 rounded-lg border-2 border-primary flex" />
 
                     <div onClick={navToggle} className="mr-4 ml-auto"  >
                         <motion.div
@@ -50,9 +50,9 @@ const MobileNavBar = () => {
                         </motion.div>
                     </div>
 
-                </div>
+                </nav>
 
-                <div className=" h-2 w-full ">
+                <nav className=" h-2 w-full ">
                     {!menuButtonView &&
 
                         <ul className="w-full text-center fixed py-12 h-full  bg-bgColor  ">
@@ -68,9 +68,9 @@ const MobileNavBar = () => {
 
                         </ul>}
 
-                </div>
+                </nav>
 
-            </div >
+            </header>
         </>
     )
 }

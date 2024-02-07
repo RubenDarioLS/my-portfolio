@@ -16,6 +16,13 @@
 /* min-width 1024px */
 @media (min-width: 1024px) {
 
+    .projectButton {
+        font-size: large;
+        padding: 10px 40px;
+        transform: scale(.9);
+        transition: .5s;
+    }
+
     .projectButton:hover {
 
         transform: scale(1);

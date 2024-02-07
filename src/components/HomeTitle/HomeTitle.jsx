@@ -7,19 +7,19 @@ const titleNames = ['Front-end Developer', 'Web Developer', 'Portfolio Developer
 
 const HomeTitle = () => {
     return (
-        <div className=' flex flex-col  text-5xl z-0' >
+        <div className=' flex flex-col  text-5xl z-0 lg:w-full' >
             <motion.h2
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 2 }} className=' text-white w-max mx-auto lg:mx-0 lg:w-full'>I´m Rubén</motion.h2>
+                transition={{ duration: 2 }} className=' text-white w-max mx-auto lg:mx-0 lg:w-full lg:text-7xl'>I´m Rubén</motion.h2>
 
             <motion.h1
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 2 }}
-                className=' text-4xl text-primary text-center max-w-sm mx-auto my-4 leading-snug lg:text-start lg:mx-0 lg:w-96'><Typewriter
+                className=' text-4xl text-primary text-center max-w-sm mx-auto my-4 leading-snug lg:text-start lg:mx-0 lg:w-full lg:text-6xl lg:max-w-max'><Typewriter
                     words={titleNames}
                     loop={0}
                     cursor
